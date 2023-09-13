@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <link href="./img/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:400,700&amp;display=swap&amp;subset=cyrillic"
+        rel="stylesheet">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Get your Welcome Bonus</title>
+    <script>
+        function getURLParameter(name) {
+            return decodeURIComponent(
+                (RegExp(name + '=' + '(.+?)(&|$)').exec(location.search) || [, null])[1] || ''
+            );
+        }
+    </script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<style>
+  .text-beneath
+
+        {   font-size: 14px;
+            color: #fff;
+            margin-left: 0px;
+        }
+        .text-beneath a
+        {   
+            margin-left: 5px;
+        }
+
+</style>
+
+<body>
+    <div id="layout">
+        <div id="content">
+            <div class="logo-site">
+                <img style="width: auto; height: auto; margin: 0 auto; padding: 35px 15px 25px; display: block;"
+                    src="img/Vyhraj-logo.png" alt="">
+            </div>
+            <div class="reducer">
+                <div class="txt">
+                    <div class="txt_1"><span class="b1"><script>document.write(getURLParameter('b1'))</script></span></div>
+					<br/>
+                    <!--                    <div class="txt_two_lines">
+                        <div class="txt_2">Welcome</div>
+                        <div class="txt_3">bonus</div>
+                    </div>-->
+                    <div class="txt_4"></div>
+                    <div class="txt_5"><span class="b2"><script>document.write(getURLParameter('b2'))</script></span></div>
+                </div>
+
+                <div class="insert-form">
+                    <div id="mauticform_wrapper_bonusen5" class="mauticform_wrapper">
+                        <div class="texts">
+          <a class="button start-btn" id="modal" href="#" data-toggle="modal" data-target="#get-bonus">
+            <span class="btn-text" id="btn-text">PLAY NOW</span>
+          </a>
+        </div>
+                    </div>
+                </div>
+				
+            </div>
+            <div class="steps">
+                <div>Sign Up</div>
+                <div>Activate bonus</div>
+                <div>Make a deposit</div>
+            </div>
+            <p class="note">
+            </p>
+            <div class="pers_1"></div>
+            <div class="pers_2"></div>
+            <div class="pers_mob"></div>
+        </div>
+        <div id="footer">
+            <div class="pay">
+                <img src="img/partners-pay.png" alt="" class="desk">
+                <img src="img/partners-pay-mob.png" alt="" class="mob">
+            </div>
+            <div class="copy">
+                <div>Copyright © 2021 - All rights reserved
+                </div>
+            </div>
+        </div>
+      <div class="modal" id="get-bonus">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Please enter your email!</h4>
+          <button type="button" class="close" data-dismiss="modal">
+            <img class="close-modal-img" src="img/cancel.png" alt="">
+          </button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <div class="insert-form">
+            <div id="mauticform_wrapper_bonusen" class="mauticform_wrapper">
+              <form class="big-form" action="https://app.confirmedsender.com/lists/sf020b8d0tf76/subscribe"
+              method="post">
+              <input id="mauticform_input_bonusen_email" class="form-control field-email field-type-text mauticform-input" placeholder="Zde zadej svůj email"
+                  type="email" required value="" name="EMAIL" id="EMAIL" />
+              <input class="form-control field-cid field-type-text" placeholder="Cid" type="hidden" value=""
+                  name="CID" id="CID" />
+              <input class="form-control field-camp field-type-text" placeholder="CAMP" type="hidden" value="bonus-ppc"
+                  name="CAMP" id="CAMP" />
+              <input class="form-control field-camp2 field-type-text" placeholder="CAMP2" type="hidden" value=""
+                  name="CAMP2" id="CAMP2" />
+              <input type="hidden" name="83771a48627e161acc0946449539ccfd290f4d51" tabindex="-1"
+                  autocomplete="83771a48627e161acc0946449539ccfd290f4d51" value="" />
+              <input id="mauticform_input_bonusen_submit" type="submit" class="btn btn-primary btn-flat mauticform-button btn-submit" name="yt0"
+                  value=" ZÍSKAT IHNED " />
+          </form>
+          <span class="text-beneath">
+            Odesláním emailu souhlasíte se zásadami <a href="#">ochrany osobních údajů</a>
+           </span>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+    </div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/device.js"></script>
+    <script src="js/icon.js"></script>
+    <script>
+      $('.start-btn').on('click', function () {
+        console.log('clicked');
+          var o = document.createElement("img");
+          o.src = 'https://finmag.com/click.php?event1=1';
+          o.referrerPolicy = 'no-referrer-when-downgrade';
+      })
+  </script>
+</body>
+
+
+</html>
